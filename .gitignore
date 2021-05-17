@@ -1,0 +1,17 @@
+.idea/
+__pycache__/
+*.log*
+*.lock
+.mypy_cache/
+.DS_Store
+build/
+*.tar.gz
+logs/
+*_pid
+*.pyc
+venv/
+*.zip
+.ipynb_checkpoints/
+
+
+
