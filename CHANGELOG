@@ -1,0 +1,8 @@
+## [Unreleased]
+
+## [1.0.0] - 2021-07-18
+### Removed
+ - without authentication
+#### Changed
+ - changed handling for API to work without authentication
+
