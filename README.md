@@ -19,7 +19,7 @@ PyCortecs is a python wrapper for the [CortecsApi](http://185.232.71.249:8002/re
 - social balance
 
 Currently 86 of the most important
-cryptos are supported.
+cryptos are supported. Twitter sentiment dates back until 2019-11-01. News and reddit sentiment was added later on.
   
 ## Example
 

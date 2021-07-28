@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 from os import path
 
 classifiers = [
@@ -18,23 +18,23 @@ this_directory = path.abspath(path.dirname(__file__))
 with open(path.join(this_directory, "README.md"), encoding="utf-8") as f:
     long_description = f.read()
 
-with open('requirements.txt') as f:
-    required = f.read().splitlines()
-
 setup(
     name="pycortecs",
-    version="0.1.1",
+    version="0.1.5",
     description="Python client to access crypto sentiment",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    keywords=["trading", "pandas", "finance", "crypto", "bitcoin", "ethereum"],
+    keywords=["trading", "pandas", "finance", "crypto", "bitcoin", "sentiment"],
     url="https://github.com/cortecs-ai/pycortecs",
-    download_url = 'https://github.com/cortecs-ai/pycortecs/archive/refs/tags/0.1.1.tar.gz',
-    author="Cortecs GmbH",
+    download_url='https://github.com/cortecs-ai/pycortecs/archive/refs/tags/0.1.5.zip',
+    author="Cortecs",
     author_email="alexander.steiner@cortecs.ai",
     license="MIT",
-    packages=["pycortecs"],
-    install_requires=required,
+    packages=find_packages(),
+    install_requires=[
+        'requests',
+        'pandas',
+    ],
     python_requires='>=3.6',
 )
 
