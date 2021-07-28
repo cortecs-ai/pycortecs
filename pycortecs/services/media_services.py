@@ -1,6 +1,6 @@
-from api.utility.utils import validate_endpoint
-from api.services import BASE_URL
-from api.services.base_services import BaseServices
+from pycortecs.utility.utils import validate_endpoint
+from pycortecs.services import BASE_URL
+from pycortecs.services.base_services import BaseServices
 
 SENTIMENT = 'sentiment'
 VOLUME = 'socialVolume'

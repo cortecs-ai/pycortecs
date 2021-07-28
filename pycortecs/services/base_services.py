@@ -1,7 +1,7 @@
 import requests
 import logging
-from api.utility.enumerations import StatusCode
-from api.services import CONNECTION_DETAILS
+from pycortecs.utility.enumerations import StatusCode
+from pycortecs.services import CONNECTION_DETAILS
 
 log = logging.getLogger()
 

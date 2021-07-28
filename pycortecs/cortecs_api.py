@@ -1,5 +1,5 @@
-from api.services.media_services import MediaServices
-from api.utility.utils import res_to_pandas
+from pycortecs.services.media_services import MediaServices
+from pycortecs.utility.utils import res_to_pandas
 
 
 class CortecsApi:

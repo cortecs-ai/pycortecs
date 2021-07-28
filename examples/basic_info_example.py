@@ -1,4 +1,4 @@
-from api.cortecs_api import CortecsApi
+from pycortecs.cortecs_api import CortecsApi
 from pprint import pprint
 
 

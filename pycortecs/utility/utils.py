@@ -1,6 +1,6 @@
 import pandas as pd
-from api.utility.enumerations import EndpointType
-from api.utility.exceptions.not_specified_error import EndpointNotSpecifiedError
+from pycortecs.utility.enumerations import EndpointType
+from pycortecs.utility.exceptions.not_specified_error import EndpointNotSpecifiedError
 
 
 def validate_endpoint(endpoint):
