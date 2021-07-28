@@ -2,12 +2,15 @@ from setuptools import setup
 from os import path
 
 classifiers = [
-    "Development Status :: 1 - Alpha",
-    "Intended Audience :: Financial and Crpto",
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Financial and Crypto",
     "Programming Language :: Python",
     "Operating System :: OS Independent",
     "Natural Language :: English",
     "License :: MIT License",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8"
 ]
 
 # read the contents of your README file
@@ -21,16 +24,17 @@ with open('requirements.txt') as f:
 setup(
     name="pycortecs",
     version="0.1.1",
-    description=" Trading signals for crypto traders.",
+    description="Python client to access crypto sentiment",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    keywords=["trading", "pandas", "finance", "crypto"],
-    url="https://gitlab.com/cortecs/snap/pycortecs",
+    keywords=["trading", "pandas", "finance", "crypto", "bitcoin", "ethereum"],
+    url="https://github.com/cortecs-ai/pycortecs",
+    download_url = 'https://github.com/cortecs-ai/pycortecs/archive/refs/tags/0.1.1.tar.gz',
     author="Cortecs GmbH",
     author_email="alexander.steiner@cortecs.ai",
     license="MIT",
     packages=["pycortecs"],
     install_requires=required,
-    python_requires='>=3.8',
+    python_requires='>=3.6',
 )
 

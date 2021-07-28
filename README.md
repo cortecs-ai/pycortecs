@@ -54,7 +54,7 @@ the [examples folder](https://github.com/cortecs-ai/pycortecs/tree/main/examples
 ## Supported by
 
 ![University of Vienna](https://github.com/cortecs-ai/pycortecs/blob/main/img/UniVie.png "University of Vienna")
-![Techhouse](/https://github.com/cortecs-ai/pycortecs/blob/main/img/Techhouse.png "Techhouse")
+![Techhouse](https://github.com/cortecs-ai/pycortecs/blob/main/img/Techhouse.png "Techhouse")
 
 ## Social
 
