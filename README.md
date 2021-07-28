@@ -2,7 +2,7 @@
 
 Cortecs gathers crypto headlines from twitter, reddit and online news to extracts the social sentiment of cryptocurrencies.
 The objective is to deliver denoised sentiment metrics in realtime. Therefore, each headline is efficiently analyzed in a
-filter engine to assure the data meets certain quality criteria (see [Cortecs Feed](https://cortecs.ai/chart)) before
+filter engine to assure the data meets certain quality criteria (see [Cortecs Feed](https://cortecs.ai)) before
 the actual sentiment is calculated. Most modules in the filter engine are built on top
 of [Transfomers](https://huggingface.co/transformers/).
 
